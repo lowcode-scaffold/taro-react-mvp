@@ -1,0 +1,17 @@
+.list {
+  min-height: 100vh;
+  .scrollView {
+    height: calc(100vh - 70px);
+  }
+  :global {
+    .at-input {
+      border: 1px solid silver;
+      margin: 0px 20px;
+      padding: 10px 30px;
+      border-radius: 100px;
+    }
+    .at-input__children::after {
+      display: none;
+    }
+  }
+}
